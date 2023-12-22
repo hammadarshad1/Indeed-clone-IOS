@@ -7,12 +7,17 @@
 
 import SwiftUI
 
-struct JobListCardView: View {
+struct JobListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Rectangle()
+        }
+        .foregroundColor(.accent)
+        .frame(height: .infinity)
+        .padding()
     }
 }
 
 #Preview {
-    JobListCardView()
+    JobListView()
 }

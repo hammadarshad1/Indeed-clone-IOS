@@ -9,19 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // MARK: - HEADER
-        
-        // MARK: SEARCH FUNCTIONALITIES
-        
-        // MARK: JOB LISTING VIEW
-        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            // MARK: - HEADER
+            HeaderView()
+            
+            // MARK: SEARCH FUNCTIONALITIES
+            SearchJobView()
+            
+            // MARK: JOB LISTING VIEW
+            JobListView()
+            
+            Spacer()
         }
-        .padding()
     }
 }
 

@@ -9,7 +9,12 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image("Indeed_Logo_RGB")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 30)
+        }
     }
 }
 
